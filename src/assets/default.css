@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
 
 * {
-    font-family: 'Inter', sans-serif, Arial, Helvetica, sans-serif;
+    font-family:'Sofia Sans Condensed', sans-serif, 'Inter', sans-serif, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -16,7 +17,12 @@
 .title1 {
     font-weight: 400;
     text-decoration: none;
-    color: #000;
+    color: #114B5F;
+    
+}
+
+.subtitle1 {
+    color: #114B5F;
 }
 
 .textFooter {
@@ -26,3 +32,105 @@
     /* vertical-align: middle; */
     margin-right: 0.3vw;
 }
+
+.card1 {
+    border-radius: 0.5vw;
+    /* border: 0.3vw solid; */
+    /* border-image: linear-gradient(60deg, #8a2be2, #52b0cf) 1; */
+    /* color: #f4f4f4; */
+}
+
+.cardMain {
+    box-shadow: 2px 2px 2px 2px #00000080;
+    padding: 1vw;
+}
+
+.card-border {
+    background-image: linear-gradient(60deg, #8a2be2, #52b0cf);
+}
+
+.title2 {
+    font-weight: 250;
+    font-size: 2.5vw;
+    color: #f4f4f4;
+}
+.footer {
+    border-top: 0.27vw solid;
+    border-image: linear-gradient(60deg, #8a2be2, #52b0cf) 1 1;
+}
+
+.text2 {
+    color: #f4f4f4;
+    font-size: 0.95vw;
+}
+
+.form-top {
+    margin-top: -1vw;
+}
+
+/* Botão de converter */
+
+.btnConvert {
+    padding: 14px 30px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: #52b0cf 0 0 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+.btnConvert:hover {
+    letter-spacing: 3px;
+    background-color: #52b0cf;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #52b0cf;
+}
+
+.btnConvert:active {
+    letter-spacing: 3px;
+    background-color: #52b0cf;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #52b0cf;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------------- */
+
+.text-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* card resultado */
+.cardResultado {
+    width: 11vw;
+    height: 2.5vw;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+}
+   
+.cardResultado:hover {
+    border: #52b0cf 0.2em solid;
+}
+
+.card-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------- */
+
