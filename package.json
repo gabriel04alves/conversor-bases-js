@@ -1,0 +1,19 @@
+{
+  "name": "conversor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel04alves/conversorBase-JS.git"
+  },
+  "author": "Gabriel Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel04alves/conversorBase-JS/issues"
+  },
+  "homepage": "https://github.com/gabriel04alves/conversorBase-JS#readme"
+}
