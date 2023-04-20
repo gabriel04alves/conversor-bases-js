@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/images/640px-Instituto_Federal_Marca_2015.svg.png">
     <link rel="stylesheet" href="assets/default.css">
-    <script src="index.js"></script>
+    <script src="/src/js/index.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/src/assets/fontawesome-free-6.4.0-web/css/all.min.css">
@@ -20,12 +20,12 @@
         <h2 class="text subtitle1" style="font-size: large;">Conversor de números de uma base numérica para outra</h2>
     </div>
     <form class="d-flex justify-content-center mt-4">
-        <div class="card1 card-border p-2 d-flex justify-content-center align-items-center" style="height: 32vw; width: 26vw;">
-            <div class="card1 cardMain" style="height: 31.2vw; width: 26vw; background-color: #114b5f;">
+        <div class="card1 card-border p-2 d-flex justify-content-center align-items-center">
+            <div class="card1 cardMain">
                 <h1 class="title2 text-center mt-3">Vamos lá!</h1>
                 <div class="">
                     <p class="text2">Entrada: </p>
-                    <select id="base-entrada" class="form-top form-select" aria-label="Default select example">
+                    <select id="base-entrada" class="form-top col-sm-10 col-md-8 col-lg-6 form-select" aria-label="Default select example">
                         <option>Selecione a base de entrada</option>
                         <option value="2">Binário</option>
                         <option value="8">Octal</option>
@@ -41,14 +41,14 @@
                         <option value="16">Hexadecimal</option>
                       </select>
                     <p id="valorEntrada" class="text2 mt-3">Valor de entrada</p>
-                    <input id="valor" class="form-top form-control" type="number" placeholder="Digite o valor de entrada" aria-label="default input example">
+                    <input id="valor" class="form-top form-control" type="text" placeholder="Digite o valor de entrada" aria-label="default input example">
                     <div class="btn-center">
                         <button onclick="converter()" class="btnConvert mt-4 "> Converter </button>
                     </div>  
-                    <div class="card-center mt-4 flex-column">
+                    <div class="card-center mt-2 flex-column">
                         <p class="text2 text-center">Resultado:</p>
                         <div class="cardResultado form-top">
-                            <span id="resultado" class="text-middle mt-2"></span>
+                            <span id="resultado" class="text3 text-middle mt-1"></span>
                         </div>
                     </div>
                     
@@ -60,10 +60,10 @@
 
 
     <!-- Footer -->
-    <footer class="footer d-flex align-items-center justify-content-end p-4" style="color: #F4F4F4; position: fixed; bottom: 0; height: 4.5vw; width: 100%; background-color: #114b5f;">
+    <footer class="footer d-flex align-items-center justify-content-end p-4">
         <div class="d-flex flex-row ">
-            <p class="textFooter" ><i class=" textFooter fa-brands fa-linkedin fa-lg" style="color: #ffffff;"></i><a class="textFooter" href="https://linkedin.com/in/gabriel04alves">/gabriel04alves</a> </p>
-            <p class="textFooter" ><i class=" textFooter fa-brands fa-github fa-lg" style="color: #FFF;"></i><a class="textFooter" href="https://github.com/gabriel04alves">/gabriel04alves</a></p>
+            <p class="textFooter" ><i class="textFooter icon fa-brands fa-linkedin fa-lg" style="color: #ffffff;"></i><a class="textFooter" href="https://linkedin.com/in/gabriel04alves">/gabriel04alves</a> </p>
+            <p class="textFooter ms-3" ><i class="textFooter icon fa-brands fa-github fa-lg" style="color: #FFF;"></i><a class="textFooter" href="https://github.com/gabriel04alves">/gabriel04alves</a></p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
